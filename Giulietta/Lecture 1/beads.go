@@ -1,15 +1,12 @@
 package main
 
-//Homework 1.1
-
 import "fmt"
+
+//Homework 1.3
 
 func main() {
 	var A int
 	fmt.Scanln(&A)
 
-	var B int
-	fmt.Scanln(&B)
-
-	fmt.Print(A + B)
+	fmt.Print(A + 1)
 }
